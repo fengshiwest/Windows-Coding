@@ -1,0 +1,12 @@
+LIBRARY "CalculatorDLL"
+
+EXPORTS
+
+add_int @ 1
+add_double @ 2
+sub_int @ 3
+sub_double @ 4
+mult_int @ 5
+mult_double @ 6
+div_int @ 7
+div_double @ 8
