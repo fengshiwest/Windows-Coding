@@ -47,22 +47,27 @@ namespace Calculator
         {
             InitializeComponent();
             Title = "计算器";
-            btnC.Click += BtnC_Click;
-            btnE.Click += BtnE_Click;
-            btnD.Click += new RoutedEventHandler(BtnOperator_Click);
-            btnX.Click += new RoutedEventHandler(BtnOperator_Click);
-            btnM.Click += new RoutedEventHandler(BtnOperator_Click);
-            btnP.Click += new RoutedEventHandler(BtnOperator_Click);
-            btn9.Click += new RoutedEventHandler(BtnNum_Click);
-            btn8.Click += new RoutedEventHandler(BtnNum_Click);
-            btn7.Click += new RoutedEventHandler(BtnNum_Click);
-            btn6.Click += new RoutedEventHandler(BtnNum_Click);
+            //"C"键点击事件
+            btn1.Click += BtnC_Click;
+
+            // "="键点击事件
+            btn20.Click += BtnE_Click;
+
+            btn4.Click += new RoutedEventHandler(BtnOperator_Click);
+            btn8.Click += new RoutedEventHandler(BtnOperator_Click);
+            btn12.Click += new RoutedEventHandler(BtnOperator_Click);
+            btn16.Click += new RoutedEventHandler(BtnOperator_Click);
+
             btn5.Click += new RoutedEventHandler(BtnNum_Click);
-            btn4.Click += new RoutedEventHandler(BtnNum_Click);
-            btn3.Click += new RoutedEventHandler(BtnNum_Click);
-            btn2.Click += new RoutedEventHandler(BtnNum_Click);
-            btn1.Click += new RoutedEventHandler(BtnNum_Click);
-            btn0.Click += new RoutedEventHandler(BtnNum_Click);
+            btn6.Click += new RoutedEventHandler(BtnNum_Click);
+            btn7.Click += new RoutedEventHandler(BtnNum_Click);
+            btn9.Click += new RoutedEventHandler(BtnNum_Click);
+            btn10.Click += new RoutedEventHandler(BtnNum_Click);
+            btn11.Click += new RoutedEventHandler(BtnNum_Click);
+            btn13.Click += new RoutedEventHandler(BtnNum_Click);
+            btn14.Click += new RoutedEventHandler(BtnNum_Click);
+            btn15.Click += new RoutedEventHandler(BtnNum_Click);
+            btn17.Click += new RoutedEventHandler(BtnNum_Click);
             OperationDict = new Dictionary<string, string>();
         }
 
@@ -82,7 +87,7 @@ namespace Calculator
                     case "—":
                         OperationDict.Add("Operator", "-");
                         break;
-                    case "X":
+                    case "*":
                         OperationDict.Add("Operator", "*");
                         break;
                     case "/":

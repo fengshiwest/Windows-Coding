@@ -1,0 +1,28 @@
+﻿<Window x:Class="Homework2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Homework2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="850">
+    <Grid>
+        <Button x:Name="button1" Content="选择文件目录" HorizontalAlignment="Left" Margin="57,43,0,0" VerticalAlignment="Top" Width="100" Click="Button1_Click" FontSize="16"/>
+        <Label x:Name="label1" Content="文件名字符" HorizontalAlignment="Left" Margin="57,86,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="30" Margin="177,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="438" FontSize="16"/>
+        <Button x:Name="button2" Content="查找所有文件" HorizontalAlignment="Left" Margin="642,89,0,0" VerticalAlignment="Top" Width="100" FontSize="16"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="79" Margin="102,154,0,0" VerticalAlignment="Top" Width="586"/>
+        <Button x:Name="button3" Content="添加到目标集中" HorizontalAlignment="Left" Height="29" Margin="57,258,0,0" VerticalAlignment="Top" Width="100" FontSize="16" Click="Button3_Click"/>
+        <Button x:Name="button4" Content="清空目标集" HorizontalAlignment="Left" Margin="177,258,0,0" VerticalAlignment="Top" Width="101" FontSize="16" Height="29" Click="Button4_Click"/>
+        <ListBox x:Name="listBox2" HorizontalAlignment="Left" Height="74" Margin="102,292,0,0" VerticalAlignment="Top" Width="560"/>
+        <Button x:Name="button5" Content="目标文件名" HorizontalAlignment="Left" Height="27" Margin="57,371,0,0" VerticalAlignment="Top" Width="100" FontSize="16"/>
+        <Button x:Name="button6" Content="上移" HorizontalAlignment="Left" Height="27" Margin="700,267,0,0" VerticalAlignment="Top" Width="63" FontSize="16" Click="Button6_Click"/>
+        <Button x:Name="button7" Content="下移" HorizontalAlignment="Left" Height="25" Margin="700,299,0,0" VerticalAlignment="Top" Width="63" FontSize="16"/>
+        <Button x:Name="button8" Content="打开选中文件" HorizontalAlignment="Left" Height="32" Margin="678,329,0,0" VerticalAlignment="Top" Width="105" FontSize="16"/>
+        <Button x:Name="button9" Content="合并文件" HorizontalAlignment="Left" Margin="678,371,0,0" VerticalAlignment="Top" Width="105" FontSize="16" Height="27"/>
+        <CheckBox x:Name="checkBox1" Content="文件合并时添加换行" HorizontalAlignment="Left" Margin="82,403,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox2" Content="文件合并时添加文件名" HorizontalAlignment="Left" Margin="240,403,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox3" Content="打开合并后的文件" HorizontalAlignment="Left" Margin="437,403,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

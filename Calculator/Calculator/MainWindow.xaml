@@ -11,23 +11,31 @@
             <TextBlock Name="ShowNumText" Text="" Height="100" Width="450" VerticalAlignment="Top" FontSize="70" Margin="2,15,20,20" HorizontalAlignment="Right" FlowDirection="RightToLeft">
             </TextBlock>
         </Border>
-        <UniformGrid Rows="4" Columns="4" Height="400" Width="450" Margin="5,160,6,20">
-            <Button Name="btn1" Content="1" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn2" Content="2" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn3" Content="3" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnD" Content="/" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn4" Content="4" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn5" Content="5" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn6" Content="6" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnX" Content="X" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn7" Content="7" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn8" Content="8" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn9" Content="9" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnM" Content="—" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnC" Content="C" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btn0" Content="0" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnE" Content="=" Style="{StaticResource MyWPFButton}" FontSize="35"/>
-            <Button Name="btnP" Content="+" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+        <UniformGrid Rows="5" Columns="4" Height="400" Width="450" Margin="5,160,6,20">
+            <Button Name="btn1" Content="C" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn2" Content="->" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn3" Content="%" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn4" Content="÷" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            
+            <Button Name="btn5" Content="7" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn6" Content="8" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn7" Content="9" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn8" Content="×" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            
+            <Button Name="btn9" Content="4" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn10" Content="5" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn11" Content="6" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn12" Content="-" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            
+            <Button Name="btn13" Content="1" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn14" Content="2" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn15" Content="3" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn16" Content="+" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            
+            <Button Name="btn17" Content="+/-" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn18" Content="0" Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn19" Content="." Style="{StaticResource MyWPFButton}" FontSize="35"/>
+            <Button Name="btn20" Content="=" Style="{StaticResource MyWPFButton}" FontSize="35"/>
         </UniformGrid>
     </Grid>
 </Window>
